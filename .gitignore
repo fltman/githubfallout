@@ -1,0 +1,44 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+
+# Temporary directories
+temp_frames/
+temp_audio/
+
+# Media files
+music/*.mp3
+music/*.wav
+input/*.mp4
+input/*.mov
+input/*.avi
+output/*.mp3
+output/*.mp4
+
+# Keep directories but not contents
+!music/.gitkeep
+!input/.gitkeep
+!output/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
